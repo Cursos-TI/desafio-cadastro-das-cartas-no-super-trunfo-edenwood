@@ -8,4 +8,26 @@ int main(){
     float pib1, pib2; // Armazena o PIB das cidades correspondentes
     int pontosTuristicos1, pontosTuristicos2; // Armazena a quantidade de pontos turísticos de cada cidade
 
+    // Coleta e armazena as informaçoes da Carta 1
+    printf("\nCarta 1\n");
+    printf("Digite uma letra de A-H:\n");
+    scanf(" %c", &estado1);
+
+
+    // Coleta e armazena as informaçoes da Carta 2
+    printf("\nCarta 2\n");
+    printf("Digite uma letra de A-H:\n");
+    scanf(" %c", &estado2);
+
+
+    // Informaçoes que serao impressas da Carta 1
+    printf("\nCarta 1");
+    printf("\nEstado: %c\n", estado1);
+
+
+    // Informaçoes que serao impressas da Carta 2
+    printf("\nCarta 2");
+    printf("\nEstado: %c\n", estado2);
+
+    return 0;
 }
