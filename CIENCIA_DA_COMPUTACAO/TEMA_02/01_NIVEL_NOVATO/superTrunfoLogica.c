@@ -46,7 +46,7 @@ int main()
     printf("Digite o PIB:\n");
     scanf("%f", &pib2);
     printf("Digite a quantidade de pontos turísticos:\n");
-    scanf("%d", &pontosTuristicos2);
+    scanf("%d", &pontosTuristicos2); 
 
     // Cálculos
     densidadePopulacional1 = populacao1 / areaKm1;
